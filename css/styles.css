@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+  --color1: rgb(33, 33, 33);
+  --color2: rgb(117, 117, 117);
+  --color3: rgb(255, 255, 255);
+  --color4: rgb(33, 150, 243);
+  --color5: rgb(245, 244, 250);
+}
+.box {
+  color: var(--color3);
+  background-color: rgb(47, 48, 58);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  height: 600px;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  margin-bottom: 95px;
+  padding-bottom: 200px;
+}
+.box2 {
+  background-color: rgb(47, 48, 58);
+  height: 252px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.box3 {
+  background-color: var(--color5);
+  margin-top: 94px;
+  padding-bottom: 94px;
+  text-align: center;
+}
+
+button {
+  background-color: var(--color4);
+  color: var(--color3);
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 10px 32px 10px 32px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  height: 50px;
+  left: 666px;
+  top: 430px;
+}
+
+.button2 {
+  background-color: var(--color5);
+  color: var(--color1);
+  cursor: pointer;
+  text-align: center;
+  border-radius: 4px;
+  border: 0;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  row-gap: 8px;
+  margin-top: 106px;
+}
+
+.button2:hover {
+  background-color: var(--color4);
+  color: var(--color3);
+}
+.button2:focus {
+  background-color: var(--color4);
+  color: var(--color3);
+}
+.logo {
+  text-decoration: none;
+  color: var(--color4);
+  font-size: 26px;
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.15;
+  font-weight: 700;
+  margin-right: 93px;
+  padding: 32px 0px;
+}
+.connection1 {
+  text-decoration: none;
+  color: var(--color1);
+  line-height: 1, 17;
+  font-weight: 500;
+  column-gap: 50px;
+}
+.connection1:hover {
+  color: var(--color4);
+}
+.connection1:focus {
+  color: var(--color4);
+}
+.active {
+  color: var(--color4);
+}
+.connection {
+  text-decoration: none;
+  line-height: 1.17;
+  color: var(--color2);
+  font-weight: 500;
+}
+.connection:hover {
+  color: var(--color4);
+}
+.connection:focus {
+  color: var(--color4);
+}
+.connectionfooter {
+  text-decoration: none;
+  line-height: 1.71;
+  color: var(--color2);
+  font-weight: 400;
+}
+.connectionfooter:focus {
+  color: var(--color4);
+}
+.connectionfooter:hover {
+  color: var(--color4);
+}
+.connectionfooter1 {
+  text-decoration: none;
+  line-height: 1.71;
+  color: var(--color3);
+  font-weight: 400;
+}
+.connectionfooter1:hover {
+  color: var(--color4);
+}
+.connectionfooter1:focus {
+  color: var(--color4);
+}
+.list {
+  list-style: none;
+}
+.title3 {
+  color: var(--color1);
+  line-height: 1.17;
+  font-weight: 700;
+  text-align: center;
+}
+.title3-portafolio {
+  color: var(--color1);
+  line-height: 1.17;
+  font-weight: 700;
+  padding-left: 24px;
+}
+.title2 {
+  color: var(--color1);
+  font-size: 36px;
+  line-height: 1.17;
+  font-weight: 700;
+  display: grid;
+  justify-items: center;
+  margin-top: 94px;
+  margin-bottom: 55px;
+  text-align: center;
+}
+
+.box3 .title2 {
+  color: var(--color1);
+  font-size: 36px;
+  line-height: 1.17;
+  font-weight: 700;
+  display: grid;
+  justify-items: center;
+  padding-top: 94px;
+  margin-bottom: 50px;
+}
+
+.title1 {
+  font-size: 44px;
+  letter-spacing: 0.06em;
+  line-height: 1.36;
+  color: var(--color3);
+  font-weight: 900;
+  margin: 200px 452px 0px 452px;
+  text-align: center;
+}
+.Portafolio {
+  display: none;
+}
+.paragraph {
+  color: var(--color2);
+  line-height: 1.71;
+  font-weight: 400;
+  padding-left: 24px;
+}
+body {
+  background-color: var(--color3);
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  margin: 0;
+  padding: 0;
+}
+.visibility {
+  visibility: hidden;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  justify-content: center;
+}
+/*flex*/
+
+.flex-navegation {
+  display: flex;
+  gap: 30px;
+}
+.flex-description {
+  display: flex;
+  margin-top: 121px;
+}
+.flex-images1 {
+  display: flex;
+  gap: 30px;
+  margin-top: 55px;
+}
+.flex-images2 {
+  display: flex;
+  gap: 37px;
+  margin-top: 94px;
+  margin-bottom: 94px;
+}
+
+.flex-navegation-header {
+  display: flex;
+  gap: 62px;
+  align-items: center;
+  padding-top: 32px;
+  margin-right: 344px;
+}
+.flex-navegation-header2 {
+  display: flex;
+  gap: 62px;
+  align-items: center;
+  padding-top: 32px;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 32px 32px;
+}
+.flex-button2 {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 50px;
+}
+.works {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: calc((100% - 2 * 30px) / 3);
+  gap: 30px;
+  margin-bottom: 82px;
+}
+.card {
+  width: 270px;
+  height: 368px;
+  flex-shrink: 0;
+  border-radius: 0px 0px 4px 4px;
+  background: var(--color3);
+  padding-bottom: 30px;
+}
+.card-portafolio {
+  width: 370px;
+  height: 404px;
+  flex-shrink: 0;
+  border: 1px solid rgb(238, 238, 238);
+  background: var(--color3);
+  padding-bottom: 20px;
+}
+.paragraph-card {
+  color: var(--color2);
+  line-height: 1.71;
+  font-weight: 400;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.padding0 {
+  padding: 0;
+}
+.margin0 {
+  margin: 0;
+}
+.border {
+  height: 80px;
+  border-bottom: 1px solid var(--color5);
+}
+.Todo {
+  padding: 6px 16px 6px 17px;
+}
+.Sitio-web {
+  padding: 6px 24px 6px 24px;
+}
+.Aplicaciones {
+  padding: 6px 24px 6px 23px;
+}
+.Diseño {
+  padding: 6px 25px 6px 26px;
+}
+.Marketing {
+  padding: 6px 26px 6px 27px;
+}
+.section-header {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.container-header {
+  display: flex;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.cero {
+  margin: 0;
+  padding: 0;
+}
+.nav {
+  display: flex;
+}
+.navegation-list {
+  display: flex;
+  margin-right: 394px;
+  column-gap: 50px;
+}
+.navegation-contac {
+  display: flex;
+  column-gap: 50px;
+}
